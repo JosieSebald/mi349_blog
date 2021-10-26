@@ -1,10 +1,10 @@
 /* Include:
-- 10 rule sets 
-- At least 1 type
-- At least 1 class
-- At least 1 ID
-- At least 1 attribute selector
-- Be consistent across HTML
+- 10 rule sets *
+- At least 1 type *
+- At least 1 class *
+- At least 1 ID *
+- At least 1 attribute selector *
+- Be consistent across HTML 
 - Modify basic layout and typography
 - Reference class design principles
 - DON'T have any inline CSS or <br> tags
@@ -22,6 +22,20 @@ body {
     border-top: 10px solid #1a1a1a;
 }
 
+nav {
+    margin-top: 20px;
+    border: 5px;
+    padding: 10px;
+    border: 3px solid #1a1a1a;
+}
+
+a[href$=".html"] {
+    /* Any link ending in .html turns black */
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 h1 {
     font-size: 3em;
     margin: 0px;
@@ -29,20 +43,49 @@ h1 {
 
 p {
     line-height: 1.5em;
+    width: 600px;
+    margin: 10px;
+    padding: 20px;
 }
 
+table {
+
+    border-top: 3px solid #1a1a1a;
+    border-bottom: 3px solid #1a1a1a;
+    border-left: 3px solid #1a1a1a;
+    border-right: 3px solid #1a1a1a;
+}
+
+th {
+    /* Table heading info */
+    padding: 5px;
+    border-bottom: 1px solid #1a1a1a;
+    border-left: 1px solid #1a1a1a;
+    border-right: 1px solid #1a1a1a;
+}
+
+td {
+    /* Table description info */
+    padding: 5px;
+    border-bottom: 1px solid #1a1a1a;
+    border-left: 1px solid #1a1a1a;
+    border-right: 1px solid #1a1a1a;
+}
+
+/* Sections */
 #blog {
     border-top: 1px dotted lightgrey;
 }
 
-.blog-games {
-    border-bottom: 1px solid lightgrey;
+#contact {
+    border-top: 1px dotted lightgrey;
 }
 
-.blog-music {
-    border-bottom: 1px solid lightgrey;
+#about {
+    border-top: 1px dotted lightgrey;
 }
 
-.blog-art {
+/* Class */
+.blog-post {
     border-bottom: 1px solid lightgrey;
 }
