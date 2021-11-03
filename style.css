@@ -45,8 +45,7 @@ ul, ol {
 
 figure {
   float: left;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 20px;
   font-variant: small-caps;
   text-align: center;
   min-width: 170px;
