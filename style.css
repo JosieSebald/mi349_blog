@@ -50,6 +50,10 @@ figure {
   min-width: 170px;
 }
 
+img {
+    max-width: 400px;
+}
+
 p {
     line-height: 1.5em;
     margin: 10px;
