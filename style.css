@@ -47,7 +47,7 @@ figure {
   float: left;
   font-variant: small-caps;
   text-align: center;
-  min-width: 170px;
+  max-width: 300px;
 }
 
 p {
