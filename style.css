@@ -39,10 +39,10 @@ h2 {
 }
 
 figure {
-  float: left; 
+  float: top; 
   font-variant: small-caps;
   text-align: center;
-  width: 125px;
+  width: 60px;
 }
 
 p {
