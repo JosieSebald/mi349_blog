@@ -118,4 +118,5 @@ article:nth-of-type(2){
 article:nth-of-type(3){
   flex: 2;
   text-align: left;
+  line-height: 1.5em;
 }
