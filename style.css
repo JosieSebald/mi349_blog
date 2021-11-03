@@ -1,14 +1,3 @@
-/* Include:
-- 10 rule sets *
-- At least 1 type *
-- At least 1 class *
-- At least 1 ID *
-- At least 1 attribute selector *
-- Be consistent across HTML 
-- Modify basic layout and typography
-- Reference class design principles
-- DON'T have any inline CSS or <br> tags
-*/
 html {
     background: darksalmon;
 }
@@ -23,6 +12,10 @@ body {
 }
 
 nav {
+  position: sticky;
+  top: 5px;
+  left: 30px;
+  background: white;
     margin-top: 20px;
     border: 5px;
     padding: 10px;
@@ -38,22 +31,33 @@ a[href$=".html"] {
 
 h1 {
     font-size: 3em;
-    margin: 0px;
+    margin: 10px;
+}
+
+h2 {
+  margin: 20px;
+}
+
+figure {
+  float: left; 
+  font-variant: small-caps;
+  text-align: center;
+  width: 125px;
 }
 
 p {
     line-height: 1.5em;
-    width: 600px;
     margin: 10px;
     padding: 20px;
 }
 
 table {
-
+    background: white;
     border-top: 3px solid #1a1a1a;
     border-bottom: 3px solid #1a1a1a;
     border-left: 3px solid #1a1a1a;
     border-right: 3px solid #1a1a1a;
+  margin: 20px;
 }
 
 th {
@@ -72,9 +76,16 @@ td {
     border-right: 1px solid #1a1a1a;
 }
 
+article {
+  background: #ccc;
+  padding: 10px;
+  margin: 20px;
+}
+
 /* Sections */
 #blog {
     border-top: 1px dotted lightgrey;
+  display: flex;
 }
 
 #contact {
@@ -88,4 +99,16 @@ td {
 /* Class */
 .blog-post {
     border-bottom: 1px solid lightgrey;
+}
+
+article:nth-of-type(1){
+  flex: 3;
+}
+
+article:nth-of-type(2){
+  flex: 2;
+}
+
+article:nth-of-type(3){
+  flex: 3;
 }
