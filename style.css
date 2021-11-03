@@ -41,7 +41,8 @@ h2 {
 figure {
   float: left; 
   font-variant: small-caps;
-  width: 100px;
+  text-align: center;
+  width: 450px;
 }
 
 p {
