@@ -39,7 +39,7 @@ h2 {
 }
 
 figure {
-  float: center; 
+  float: left; 
   font-variant: small-caps;
   text-align: center;
   width: 100px;
