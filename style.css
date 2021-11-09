@@ -124,9 +124,10 @@ article {
 
 .captions {
 list-style-type: none;
+
 }
 
-captions li {
+.captions li {
   display: inline-block;
 padding: 20px 10px;
 }
