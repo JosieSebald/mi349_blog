@@ -122,7 +122,6 @@ article {
 .art li {
   display: inline-block;
   padding: 20px 10px; 
-  width: 200px;
 }
 
 article:nth-of-type(1){
