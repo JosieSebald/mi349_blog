@@ -144,6 +144,10 @@ article:nth-of-type(3){
     float: none;
   }
 
+  img {
+    width: 200px;
+  }
+
   .art {
     text-align: left;
   }
