@@ -119,6 +119,11 @@ article {
   list-style-type: none;
 }
 
+.art li {
+  display: inline-block;
+  padding: 20px 10px; 
+}
+
 article:nth-of-type(1){
   flex: 1 500px;
 }
@@ -135,5 +140,7 @@ article:nth-of-type(3){
 
 /* Media Query */
 @media (max-width: 400px) {
-
+  .art li {
+    width: 100px;
+  }
 }
