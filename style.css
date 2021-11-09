@@ -122,6 +122,12 @@ article {
   padding: 20px 10px; 
 }
 
+.captions {
+list-style-type: none;
+display: inline-block;
+padding: 20px 10px;
+}
+
 article:nth-of-type(1){
   flex: 1 500px;
 }
