@@ -138,6 +138,24 @@ article:nth-of-type(3){
 }
 
 /* Media Query */
+
+@media (max-width: 590px) {
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    background-color: darksalmon;
+    padding: 10px;
+  }
+
+  nav {
+    background-color: darksalmon;
+  }
+  
+}
 @media (max-width: 400px) {
 
   body {
