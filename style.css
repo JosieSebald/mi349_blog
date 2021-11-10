@@ -140,6 +140,11 @@ article:nth-of-type(3){
 /* Media Query */
 @media (max-width: 400px) {
 
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
   p {
     font-size: 0.85em;
   }
