@@ -139,6 +139,10 @@ article:nth-of-type(3){
 
 /* Media Query */
 @media (max-width: 400px) {
+
+  p {
+    font-size: 0.75em;
+  }
   figure {
     float: none;
   }
