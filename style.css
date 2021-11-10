@@ -149,7 +149,7 @@ article:nth-of-type(3){
   }
 
   table {
-    margin: 0 auto;
+    width: 100%;
   }
 
   .art {
