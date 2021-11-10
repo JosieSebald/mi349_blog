@@ -143,6 +143,10 @@ article:nth-of-type(3){
     float: none;
   }
 
+  #blog {
+    display: none;
+  }
+
   img {
     width: 200px;
   }
