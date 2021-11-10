@@ -139,7 +139,7 @@ article:nth-of-type(3){
 
 /* Media Query */
 
-@media (max-width: 450px) {
+@media (max-width: 590px) {
 
   html {
     background: white;
