@@ -160,6 +160,14 @@ article:nth-of-type(3){
   }
 
 }
+
+@media (max-width: 450px){
+  table {
+    width: 200px;
+    font-size: 0.75em;
+  }
+}
+
 @media (max-width: 400px) {
 
   html {
