@@ -143,7 +143,7 @@ article:nth-of-type(3){
 
   body {
     margin: 0;
-    padding: 0;
+    padding: 10px;
   }
 
   h1 {
@@ -154,13 +154,13 @@ article:nth-of-type(3){
   nav {
     background-color: darksalmon;
   }
-  
+
 }
 @media (max-width: 400px) {
 
   body {
     margin: 0;
-    padding: 0;
+    padding: 10px;
   }
 
   h1 {
