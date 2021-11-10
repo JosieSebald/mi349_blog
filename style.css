@@ -143,10 +143,6 @@ article:nth-of-type(3){
     float: none;
   }
 
-  article {
-    margin: 0 auto;
-  }
-
   table {
     width: 200px;
   }
