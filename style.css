@@ -200,9 +200,7 @@ article:nth-of-type(3){
     font-size: 0.75em;
   }
 
-  .art {
-    text-align: left;
-  }
+  
   .art li {
     width: 100px;
   }
