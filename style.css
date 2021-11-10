@@ -159,6 +159,11 @@ article:nth-of-type(3){
     background-color: darksalmon;
   }
 
+  table {
+    width: 170px;
+    font-size: 0.75em;
+  }
+
 }
 @media (max-width: 400px) {
 
