@@ -52,8 +52,7 @@ figure {
 }
 
 img {
-    max-width: 540px;
-    max-height: 450px;
+    width: 100%;
 }
 
 p {
