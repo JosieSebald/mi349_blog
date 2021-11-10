@@ -139,18 +139,7 @@ article:nth-of-type(3){
 
 /* Media Query */
 @media (max-width: 400px) {
-  figure {
-    float: none;
-  }
-
-  img {
-    width: 200px;
-  }
-
-  .art {
-    text-align: left;
-  }
-  .art li {
-    width: 100px;
+  article {
+    background-color: red;
   }
 }
